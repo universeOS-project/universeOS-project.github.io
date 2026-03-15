@@ -6,6 +6,6 @@
   },
   "installscript": [
     "wget $REPO_SOURCE/supertux/SuperTux.AppImage",
-    "cp ./SuperTux.AppImage $UNIROOT/usr/bin/supertux"
+    "cp ./SuperTux.AppImage $UNIBIN/supertux"
   ]
 } 
