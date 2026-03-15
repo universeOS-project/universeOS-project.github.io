@@ -1,11 +1,12 @@
 {
   "package": "supertux",
-  "workswith": ["linux", "windows"],
+  "workswith": ["linux"],
   "installenv": {
-    "REPO_SOURCE": "universeOS-project.github.io/packages/tzor"
+    "REPO_SOURCE": "https://github.com/universeOS-project/universeOS-project.github.io/releases/download/upm-supertux/SuperTux.AppImage"
   },
   "installscript": [
-    "wget $REPO_SOURCE/supertux/SuperTux.AppImage",
+    "cd /tmp",
+    "wget $REPO_SOURCE",
     "cp ./SuperTux.AppImage $UNIBIN/supertux"
   ]
 } 
