@@ -6,7 +6,7 @@
   },
   "installscript": [
     "cd /tmp",
-    "wget wget -q --show-progress $TUXBIN -O SuperTux.AppImage",
+    "wget -q --show-progress $TUXBIN -O SuperTux.AppImage",
     "cp ./SuperTux.AppImage $UNIBIN/supertux",
     "chmod +x $UNIBIN/supertux"
   ]
