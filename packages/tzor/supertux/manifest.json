@@ -2,11 +2,11 @@
   "package": "supertux",
   "workswith": ["linux"],
   "installenv": {
-    "REPO_SOURCE": "https://github.com/universeOS-project/universeOS-project.github.io/releases/download/upm-supertux/SuperTux.AppImage"
+    "TUXBIN": "https://github.com/universeOS-project/universeOS-project.github.io/releases/download/upm-supertux/SuperTux.AppImage"
   },
   "installscript": [
     "cd /tmp",
-    "wget $REPO_SOURCE",
+    "wget $TUXBIN",
     "cp ./SuperTux.AppImage $UNIBIN/supertux"
   ]
 } 
