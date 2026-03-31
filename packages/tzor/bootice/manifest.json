@@ -5,7 +5,7 @@
     "BIN": "%REPO_SOURCE%/bootice/BOOTICEx64.exe"
   },
   "installscript_windows": [
-    "cd %UNIBIN%",
+    "cd /d %UNIBIN%",
     "curl -q %BIN% -o BOOTICE.exe"
   ]
 } 
