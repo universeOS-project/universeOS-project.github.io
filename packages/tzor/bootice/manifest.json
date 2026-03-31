@@ -1,0 +1,11 @@
+{
+  "package": "bootice",
+  "workswith": ["windows"],
+  "installenv_windows": {
+    "BIN": "%REPO_SOURCE%/bootice/BOOTICEx64.exe"
+  },
+  "installscript_windows": [
+    "cd %UNIBIN%",
+    "curl -q %BIN% -o BOOTICE.exe"
+  ]
+} 
