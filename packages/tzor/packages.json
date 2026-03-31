@@ -1,4 +1,5 @@
 {
   "supertux": "/supertux/manifest.json",
+  "bootice": "/bootice/manifest.json",
   "uninit": "/core/uninit/manifest.json"
 }
