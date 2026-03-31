@@ -4,7 +4,7 @@
   "installenv": {
     "TUXBIN": "https://github.com/universeOS-project/universeOS-project.github.io/releases/download/upm-supertux/SuperTux.AppImage"
   },
-  "installscript": [
+  "installscript_linux": [
     "cd /tmp",
     "wget -q --show-progress $TUXBIN -O SuperTux.AppImage",
     "cp ./SuperTux.AppImage $UNIBIN/supertux",
