@@ -1,5 +1,6 @@
 {
   "package": "bootice",
+  "version": "v1.3.3",
   "workswith": ["windows"],
   "installenv_windows": {
     "BIN": "%REPO_SOURCE%/bootice/BOOTICEx64.exe"
@@ -7,5 +8,13 @@
   "installscript_windows": [
     "cd /d %UNIBIN%",
     "curl -q %BIN% -o BOOTICE.exe"
+  ],
+  "upgradescript_windows": [
+    "cd /d %UNIBIN%",
+    "curl -q %BIN% -o BOOTICE.exe"
+  ],
+  "removescript_windows": [
+    "cd /d %UNIBIN%",
+    "del BOOTICE.exe"
   ]
 } 
