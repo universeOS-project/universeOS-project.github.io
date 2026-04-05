@@ -1,0 +1,9 @@
+theme: minima
+
+plugins:
+  - jekyll-gfm-admonitions
+
+# This ensures your markdown is parsed correctly for GFM features
+markdown: kramdown
+kramdown:
+  input: GFM
