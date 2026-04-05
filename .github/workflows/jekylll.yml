@@ -1,10 +1,8 @@
 name: Deploy Jekyll with Admonitions
 
 on:
-  push:
-    branches: ["main"] # Replace with your default branch name
   workflow_dispatch: 
-    
+
 permissions:
   contents: read
   pages: write
