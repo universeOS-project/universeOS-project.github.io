@@ -1,0 +1,77 @@
+{
+  "package": "testpkg",
+  "version": "v0.0.2",
+  "workswith": ["windows", "linux"],
+  "installenv_windows": {
+    "ENV1": "Hello this is env1 speaking"
+  },
+  "installscript_windows": [
+    "echo If you're seeing this, it probably worked.",
+    "echo This is the install script.",
+    "echo ENV1 says \"%ENV1%\""
+  ],
+  "upgradescript_windows": [
+    "echo If you're seeing this, it probably worked.",
+    "echo This is the upgrade script.",
+    "echo ENV1 says \"%ENV1%\""
+  ],
+  "removescript_windows": [
+    "echo If you're seeing this, it probably worked.",
+    "echo This is the remove script.",
+    "echo ENV1 says \"%ENV1%\""
+  ],
+  "installenv_linux": {
+    "ENV1": "Hello this is env1 speaking"
+  },
+  "installscript_linux": [
+    "echo If you're seeing this, it probably worked.",
+    "echo This is the install script.",
+    "echo ENV1 says \"%ENV1%\""
+  ],
+  "upgradescript_linux": [
+    "echo If you're seeing this, it probably worked.",
+    "echo This is the upgrade script.",
+    "echo ENV1 says \"$ENV1\""
+  ],
+  "removescript_linux": [
+    "echo If you're seeing this, it probably worked.",
+    "echo This is the remove script.",
+    "echo ENV1 says \"$ENV1\""
+  ],
+  "installenv_linuxarm": {
+    "ENV1": "Hello this is env1 speaking"
+  },
+  "installscript_linuxarm": [
+    "echo If you're seeing this, it probably worked.",
+    "echo This is the install script.",
+    "echo ENV1 says \"%ENV1%\""
+  ],
+  "upgradescript_linuxarm": [
+    "echo If you're seeing this, it probably worked.",
+    "echo This is the upgrade script.",
+    "echo ENV1 says \"$ENV1\""
+  ],
+  "removescript_linuxarm": [
+    "echo If you're seeing this, it probably worked.",
+    "echo This is the remove script.",
+    "echo ENV1 says \"$ENV1\""
+  ],
+  "installenv_android": {
+    "ENV1": "Hello this is env1 speaking"
+  },
+  "installscript_android": [
+    "echo If you're seeing this, it probably worked.",
+    "echo This is the install script.",
+    "echo ENV1 says \"%ENV1%\""
+  ],
+  "upgradescript_android": [
+    "echo If you're seeing this, it probably worked.",
+    "echo This is the upgrade script.",
+    "echo ENV1 says \"$ENV1\""
+  ],
+  "removescript_android": [
+    "echo If you're seeing this, it probably worked.",
+    "echo This is the remove script.",
+    "echo ENV1 says \"$ENV1\""
+  ]
+} 
