@@ -1,6 +1,6 @@
 {
   "supertux": "/supertux/manifest.json",
   "bootice": "/bootice/manifest.json",
-  "testpkg": "/test/manifest.json",
+  "testpkg": "/testpkg/manifest.json",
   "uninit": "/core/uninit/manifest.json"
 }
