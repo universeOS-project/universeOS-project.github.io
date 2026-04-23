@@ -44,7 +44,7 @@
   "installscript_linuxarm": [
     "echo If you're seeing this, it probably worked.",
     "echo This is the install script on linuxarm.",
-    "echo ENV1 says \"%ENV1%\""
+    "echo ENV1 says \"$ENV1\""
   ],
   "upgradescript_linuxarm": [
     "echo If you're seeing this, it probably worked.",
