@@ -1,7 +1,7 @@
 {
   "package": "testpkg",
   "version": "v0.0.2",
-  "workswith": ["windows", "linux"],
+  "workswith": ["windows", "linux", "linuxarm", "android"],
   "installenv_windows": {
     "ENV1": "Hello this is env1 speaking"
   },
