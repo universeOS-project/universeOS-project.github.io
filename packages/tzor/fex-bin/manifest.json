@@ -1,0 +1,24 @@
+{
+  "version": "2604",
+  "package": "fex-bin",
+  "workswith": ["linuxarm"],
+  "installenv_linuxarm": {
+    "FEXSOURCE": "https://universeOS-project.github.io/packages/tzor/fex-bin/"
+  },
+  "installscript_linuxarm": [
+    "cd $UNIBIN",
+    "wget -q --show-progress $FEXSOURCE/FEX -O FEX",
+    "wget -q --show-progress $FEXSOURCE/FEXBash -O FEXBash",
+    "wget -q --show-progress $FEXSOURCE/FEXConfig -O FEXConfig",
+    "wget -q --show-progress $FEXSOURCE/FEXGetConfig -O FEXGetConfig",
+    "wget -q --show-progress $FEXSOURCE/FEXInterpreter -O FEXInterpreter",
+    "wget -q --show-progress $FEXSOURCE/FEXOfflineCompiler -O FEXOfflineCompiler",
+    "wget -q --show-progress $FEXSOURCE/FEXpidof -O FEXpidof",
+    "wget -q --show-progress $FEXSOURCE/FEXRootFSFetcher -O FEXRootFSFetcher",
+    "wget -q --show-progress $FEXSOURCE/FEXServer -O FEXServer",
+    "chmod +x FEX*",
+    "echo FEX installed!",
+    "echo Remember to install a RootFS",
+    "echo with FEXRootFSFetcher."
+  ]
+} 
