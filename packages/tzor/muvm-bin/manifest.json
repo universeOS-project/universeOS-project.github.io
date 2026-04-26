@@ -9,7 +9,7 @@
   "installscript_linuxarm": [
     "PAGE=$(getconf PAGESIZE)",
     "",
-    "if [ \"$PAGE\" != \"16384\"",
+    "if [ \"$PAGE\" != \"16384\" ]; then",
     "    echo \"ERROR: muvm is designed to make\"",
     "    echo \"4k paged binaries run on 16k mem mapped systems.\"",
     "    echo \"You do not need this or it is incompatible, as your\"",
