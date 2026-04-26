@@ -3,5 +3,6 @@
   "bootice": "/bootice/manifest.json",
   "testpkg": "/testpkg/manifest.json",
   "fex-bin": "/fex-bin/manifest.json",
+  "muvm-bin": "/muvm-bin/manifest.json",
   "uninit": "/core/uninit/manifest.json"
 }
