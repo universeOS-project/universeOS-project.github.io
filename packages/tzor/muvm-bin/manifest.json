@@ -1,0 +1,27 @@
+{
+  "version": "0.5",
+  "package": "muvm-bin",
+  "depends_linuxarm": [],
+  "workswith": ["linuxarm"],
+  "installenv_linuxarm": {
+    "micro": "https://universeOS-project.github.io/packages/tzor/muvm-bin/"
+  },
+  "installscript_linuxarm": [
+    "PAGE=$(getconf PAGESIZE)",
+    "",
+    "if [ \"$PAGE\" != \"16384\"",
+    "    echo \"ERROR: muvm is designed to make\"",
+    "    echo \"4k paged binaries run on 16k mem mapped systems.\"",
+    "    echo \"You do not need this or it is incompatible, as your\"",
+    "    echo \"system is using $PAGE instead of 16384.\"",
+    "    exit 1",
+    "fi",
+    "",
+    "cd $UNIBIN",
+    "wget -q --show-progress $micro/muvm -O muvm",
+    "wget -q --show-progress $micro/muvm-guest -O muvm-guest",
+    "chmod +x muvm*",
+    "echo muVM installed!",
+    "echo Now you can run 4k paged binaries on 16k mapped systems! (with muvm [COMMAND])"
+  ]
+}
