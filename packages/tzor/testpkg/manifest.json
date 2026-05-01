@@ -26,7 +26,7 @@
   "installscript_linux": [
     "echo \"If you're seeing this, it probably worked.\"",
     "echo This is the install script on linux.",
-    "echo ENV1 says \"%ENV1%\""
+    "echo ENV1 says \"$ENV1\""
   ],
   "upgradescript_linux": [
     "echo \"If you're seeing this, it probably worked.\"",
@@ -62,7 +62,7 @@
   "installscript_android": [
     "echo \"If you're seeing this, it probably worked.\"",
     "echo This is the install script on android.",
-    "echo ENV1 says \"%ENV1%\""
+    "echo ENV1 says \"$ENV1\""
   ],
   "upgradescript_android": [
     "echo \"If you're seeing this, it probably worked.\"",
